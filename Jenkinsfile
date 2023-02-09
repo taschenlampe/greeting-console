@@ -29,7 +29,6 @@ pipeline{
 				sh '''
 
 					oc project phsdcx-greetings
-
 					oc start-build greeting-console --follow --wait
 
 					'''
